@@ -1,0 +1,55 @@
+﻿@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;S
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        Guid id;
+        IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        try
+        {
+            start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        string strId = Request["deleteId"];
+        Guid.TryParse(strId, out id);
+        var user = start.GetAllUsers().ToArray();
+
+        for (int y = 0; y < user.Length; y++)
+        {
+            for (int i = 0; i < user[y].Awards.Count; i++)
+            {
+                if (user[y].Awards[i] == startAward.GetAward(id).Title)
+                {
+                    //user[y].Awards.RemoveAt(i);
+                    start.DeleteAwardInUser(user[y], startAward.GetAward(id));
+                }
+            }
+        }
+
+
+        startAward.DeleteAward(id);
+        startAward.WriteAwards();
+        start.WriteUsers();
+
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}

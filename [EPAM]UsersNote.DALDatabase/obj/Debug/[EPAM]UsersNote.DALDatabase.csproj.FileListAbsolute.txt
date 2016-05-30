@@ -1,0 +1,12 @@
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\obj\Debug\[EPAM]UsersNote.DALDatabase.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.DALDatabase.dll.config
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.DALDatabase.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.DALDatabase.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.Interfaces.DAL.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.Interfaces.DAL.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\obj\Debug\[EPAM]UsersNote.DALDatabase.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.DALDatabase\obj\Debug\[EPAM]UsersNote.DALDatabase.pdb

@@ -1,0 +1,88 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+
+@if (!User.Identity.IsAuthenticated)
+{
+    Response.SetStatus(HttpStatusCode.Unauthorized);
+    return;
+}
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        User user;
+        IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        try
+        {
+            start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        var inputVal = Request["Id"];
+        Guid id;
+        Guid.TryParse(inputVal, out id);
+        user = start.GetUser(id);
+
+        //else
+        //{
+        //    Response.Redirect("~/Index");
+        //    return;
+        //}
+
+        <text><!DOCTYPE html>
+            <html>
+            <head>
+                <title></title>
+                <link href="~/Content/bootstrap.min.css" rel="stylesheet"/>
+                <link href="~/Content/details.css" rel="stylesheet"/>
+            </head>
+            <body>
+            <div class="section-layout">
+                <table class="table table-bordered">
+                    <tr class="success">
+                        <th>Имя</th>
+                        <th>Дата рождения</th>
+                        <th>Возраст</th>
+                        <th>Награды</th>
+                    </tr>
+                    <tr>
+                        <td>@user.Name</td>
+                        <td>@user.DateofBirth.Date.ToString("dd MMMM, yyyy")</td>
+                        <td>@user.Age</td>
+                        <td>
+                            <table class="table table-striped">
+                                @*@for (int i = 0; i < user.Awards.Count; i++)*@
+                                @foreach(var item in start.GetAllUserAwards(user))
+                                {
+                                    <tr><td>@startAward.GetAward(item).Title</td></tr>
+                                }</table>
+                        </td>
+                    </tr>
+                </table>
+                <a class="btn btn-primary" href="~/Index">На главную</a>
+            </div>
+            <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+            <script src="~/Scripts/bootstrap.min.js"></script>
+            </body>
+            </html></text>
+    }
+}
+    

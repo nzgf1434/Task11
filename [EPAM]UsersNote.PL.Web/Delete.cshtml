@@ -1,0 +1,43 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;S
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        IUserNoteBLL start = null;
+        try
+        {
+            start = new UsersNoteLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        string strId = Request["id"];
+        Guid id;
+        Guid.TryParse(strId, out id);
+        start.DeleteUser(id);
+        start.WriteUsers();
+
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}

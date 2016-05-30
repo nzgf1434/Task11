@@ -1,0 +1,217 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using System.Web.Razor.Generator
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+@using _EPAM_UsersNote.PL.Web
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/index.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="The description of my page" />
+</head>
+<body>
+    @{
+        string logPath = ConfigurationManager.AppSettings["LogPath"];
+        FileStream stream = File.Create(logPath);
+        stream.Close();
+        IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        IEnumerable<User> arr;
+        try
+        {
+            start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+    }
+
+    <div class="auth auth-layout">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <text>
+                <table class="table table-bordered">
+                    <tr class="success">
+                        <td>User</td>
+                        <td>@User.Identity.Name</td>
+                    </tr>
+                </table>
+            </text>
+            <a class="btn btn-primary" href="~/Logout">Logout</a>
+        }
+        else
+        {<text>
+            <a class="btn btn-primary" href="~/Login">Login</a>
+        </text>
+        }
+    </div>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+    {
+        <div class="add-user add-user-layout">
+            <form action="~/Add" method="POST" enctype="multipart/form-data">
+                <input type="text" name="username" value="" required placeholder="имя пользователя"/>
+                <input type="date" name="birthday" value="" placeholder="дата рождения"/>
+                <input type="file" name="foto" value="" placeholder="фото пользователя"/>
+                <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-plus"></i>Добавить пользователя</button>
+            </form>
+        </div>
+
+        <a href="~/AdminPage" class="btn btn-primary admin-layout">Администрирование</a>
+    }
+    @*СЕКЦИЯ ПОЛЬЗОВАТЕЛЕЙ*@
+    <section class="user-index-layout">
+        <table class="table-index table table-hover table-bordered">
+            <caption>Список всех пользователей</caption>
+            <tr class="success">
+                <th>№</th>
+                <th>Фото</th>
+                <th>Пользователь</th>
+                <th>Действия</th>
+            </tr>
+
+            @{
+                int i = 1;
+            }
+
+            @{
+                arr = start.GetAllUsers();
+                    foreach (var item in arr)
+                    {
+                        <text>
+                            <tr>
+                                <td>@i</td>
+                                <td>
+                                    <div class="user-img user-img-layout">
+                                        <img class="img-responsive img-rounded center-block" src="~/Images/View?userId=@item.Id" alt="фото пользователя"/>
+                                    </div>
+                                </td>
+                                <td>@item.Name</td>
+                                <td>
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        if (User.IsInRole("admin"))
+                                        {
+                                            <button class="giveawd btn btn-sm btn-primary" title="Наградить"><i class="glyphicon glyphicon-star"></i></button>
+                                        }
+                                        <form class="buttons-layout" action="~/Details" method="POST">
+                                            <input class="hide" type="text" value="@item.Id" name="Id"/>
+                                            <button class="btn btn-sm btn-primary" type="submit" title="Подробно"><i class="glyphicon glyphicon-info-sign"></i></button>
+                                        </form>
+                                        if (User.IsInRole("admin"))
+                                        {
+                                            <form class="buttons-layout" action="~/Edit" method="POST">
+                                                <input class="hide" type="text" value="@item.Id" name="Id"/>
+                                                <button class="btn btn-sm btn-primary" type="submit" title="Редактировать"><i class="glyphicon glyphicon-edit"></i></button>
+                                            </form>
+                                            <form class="buttons-layout" action="~/Delete" method="POST">
+                                                <input class="hide" type="text" value="@item.Id" name="Id"/>
+                                                <button class="btn btn-sm btn-danger" type="submit" title="Удалить"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                                            </form>
+                                            <div class="awards-pad awards-pad-layout">
+                                                <select multiple size="1">
+                                                    @foreach (var itemsaward in startAward.GetAllAwards())
+                                                    {
+                                                        <text>
+                                                            <option>@itemsaward.Title</option></text>
+                                                    }
+                                                </select>
+                                                <form class="buttons-layout" action="~/Giveaward" method="POST">
+                                                    <input class="hide" type="text" value="@(item.Id.ToString() + "!")" name="getawrd"/>
+                                                    <button class="giveawdOk btn btn-sm btn-primary" type="submit" title="Ok">Ok</button>
+                                                </form>
+                                            </div>
+                                        }
+                                    }
+                                </td>
+
+                            </tr>
+                        </text>
+                        i++;
+                    }
+            }
+        </table>
+
+    </section>
+
+    @*СЕКЦИЯ НАГРАД*@
+
+    @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+    {
+        <div class="add-user add-award-layout">
+            <form action="~/Addaward" method="POST" enctype="multipart/form-data">
+                <input type="text" name="awardtext" value="" required placeholder="название награды" />
+                <input type="file" name="foto" value="" placeholder="фото награды" />
+                <button class="btn btn-primary" type="submit"><i class="glyphicon glyphicon-plus"></i>Добавить награду</button>
+            </form>
+        </div>
+        <section class="awards-index-layout">
+            <table class="table-index table table-hover table-bordered">
+                <caption>Список доступных наград</caption>
+                <tr class="success">
+                    <th>№</th>
+                    <th>Фото награды</th>
+                    <th>Награда</th>
+                    <th>Действия</th>
+                </tr>
+
+                @{
+                    int y = 1;
+                    var awards = startAward.GetAllAwards();
+                }
+                @foreach (var item in awards)
+                {
+                    <text>
+                        <tr>
+                            <td>@y</td>
+                            <td>
+                                <div class="user-img user-img-layout">
+                                    <img class="img-responsive img-rounded center-block" src="~/Images/ViewAward?awardId=@item.Id" alt="фото награды" />
+                                </div>
+                            </td>
+                            <td>@item.Title</td>
+                            <td>
+                                <form class="buttons-layout" action="~/Editaward" method="POST">
+                                    <input class="hide" type="text" value="@item.Id" name="Id" />
+                                    <button class="btn btn-sm btn-primary" type="submit" title="Редактировать"><i class="glyphicon glyphicon-edit"></i></button>
+                                </form>
+                                <button class="button-dialog btn btn-sm btn-danger " title="Удалить награду"><i class="button-dialog glyphicon glyphicon-remove-sign"></i></button>
+                                <div class="div-dialog hide">
+                                    <h1 class="">Награда будет удалена у всех пользователей!</h1>
+                                    <form class="buttons-layout" action="~/Deleteaward" method="POST">
+                                        <input class="inp hide" type="text" value="@item.Id" name="deleteId"/>
+                                        <button class="close1 btn btn-sm btn-danger" type="submit" title="Удалить награду">Удалить награду</button>
+                                    </form>
+                                    <button class="close2 btn btn-default">Отмена</button>
+                                </div>
+                            </td>
+                        </tr></text>
+                    y++;
+                }
+            </table>
+        </section>
+                    }
+
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/addaward.js"></script>
+    <script src="~/Scripts/dialog.js"></script>
+</body>
+</html>

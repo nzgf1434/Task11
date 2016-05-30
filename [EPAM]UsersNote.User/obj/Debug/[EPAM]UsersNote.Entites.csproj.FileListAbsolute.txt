@@ -1,0 +1,4 @@
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.User\bin\Debug\[EPAM]UsersNote.User.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.User\bin\Debug\[EPAM]UsersNote.User.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.User\obj\Debug\[EPAM]UsersNote.User.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.User\obj\Debug\[EPAM]UsersNote.User.pdb

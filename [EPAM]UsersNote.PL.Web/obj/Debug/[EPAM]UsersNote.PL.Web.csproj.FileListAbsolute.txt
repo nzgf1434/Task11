@@ -1,0 +1,260 @@
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\csc.exe
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\vbc.exe
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll.config
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.xml
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.xml
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.xml
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.xml
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\csc.exe
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Collections.Immutable.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Reflection.Metadata.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\vbc.exe
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe.config
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll.config
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.xml
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.xml
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.xml
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.xml
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.xml
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.csprojResolveAssemblyReference.cache
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\csc.exe
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Collections.Immutable.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Reflection.Metadata.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\vbc.exe
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe.config
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll.config
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.Web.Infrastructure.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.xml
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.xml
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.xml
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.xml
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.xml
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.csprojResolveAssemblyReference.cache
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\csc.exe
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Collections.Immutable.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Reflection.Metadata.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\vbc.exe
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe.config
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll.config
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.Web.Infrastructure.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.xml
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.xml
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.xml
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.xml
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.xml
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.csprojResolveAssemblyReference.cache
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\csc.exe
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\vbc.exe
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll.config
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.xml
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.xml
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.xml
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.xml
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\csc.exe
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Collections.Immutable.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\System.Reflection.Metadata.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\vbc.exe
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\roslyn\VBCSCompiler.exe.config
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll.config
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.PL.Web.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.BLL-Logic.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.Helpers.xml
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.Razor.xml
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.xml
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Deployment.xml
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\System.Web.WebPages.Razor.xml
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Interfaces.DAL.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALFiles.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\obj\Debug\[EPAM]UsersNote.PL.Web.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALDatabase.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.PL.Web\bin\[EPAM]UsersNote.DALDatabase.pdb

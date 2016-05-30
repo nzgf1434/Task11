@@ -1,0 +1,68 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        //IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        try
+        {
+            //start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        var inputVal = Request["Id"];
+        Guid id;
+        Guid.TryParse(inputVal, out id);
+        Award award = startAward.GetAward(id);
+        var name = Request["newname"];
+        if (!name.IsEmpty())
+        {
+            startAward.SetAwardTitle(award, name);
+        }
+
+        var foto = Request.Files["uploaded"];
+        byte[] imageContent = null;
+        string path = null;
+        if (foto.ContentLength > 0)
+        {
+            imageContent = new byte[foto.ContentLength];
+            foto.InputStream.Read(imageContent, 0, imageContent.Length);
+            path = foto.FileName + "#" + foto.ContentType;
+            startAward.AddPictureForAward(award, path, imageContent);
+        }
+
+        string delFoto = Request["nofoto"];
+        if (delFoto == "true")
+        {
+            startAward.AddPictureForAward(award, "award.jpg#image/jpg", new byte[0]);
+        }
+        startAward.WriteAwards();
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}
+
+

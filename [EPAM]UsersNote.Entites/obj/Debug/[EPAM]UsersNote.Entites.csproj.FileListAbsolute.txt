@@ -1,0 +1,38 @@
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.csprojResolveAssemblyReference.cache
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.csprojResolveAssemblyReference.cache
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.csprojResolveAssemblyReference.cache
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.csprojResolveAssemblyReference.cache
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.csprojResolveAssemblyReference.cache
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Entites\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Entites\obj\Debug\[EPAM]UsersNote.Entites.pdb

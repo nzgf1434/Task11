@@ -1,0 +1,70 @@
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+M:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Entites.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Interfaces.BLL\obj\Debug\[EPAM]UsersNote.Interfaces.BLL.pdb

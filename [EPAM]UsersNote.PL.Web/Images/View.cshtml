@@ -1,0 +1,39 @@
+﻿@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    IUserNoteBLL start = null;
+    try
+    {
+        start = new UsersNoteLogic();
+    }
+    catch (Exception e)
+    {
+        using (StreamWriter str = File.AppendText(logPath))
+        {
+            str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+        }
+    }
+
+    string userId = Request["userId"];
+    Guid id;
+    if (string.IsNullOrWhiteSpace(userId) || !Guid.TryParse(userId, out id))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+
+   
+    User user = start.GetUser(id);
+        string[] arrUserpath = user.FilePath.Split('#');
+        string contentType = arrUserpath[1];
+
+        byte[] image = start.GetUserPicture(user);
+
+        Response.WriteBinary(image, contentType);
+
+}

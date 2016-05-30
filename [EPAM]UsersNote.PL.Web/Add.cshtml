@@ -1,0 +1,63 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        IUserNoteBLL start = null;
+        try
+        {
+            start = new UsersNoteLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        var userName = Request["username"];
+        DateTime date;
+        bool truedate = DateTime.TryParse(Request["birthday"], out date);
+        var foto = Request.Files["foto"];
+        byte[] imageContent = null;
+        string path = null;
+        if (foto.ContentLength > 0)
+        {
+            imageContent = new byte[foto.ContentLength];
+            foto.InputStream.Read(imageContent, 0, imageContent.Length);
+            path = foto.FileName + "#" + foto.ContentType;
+        }
+        else
+        {
+            imageContent = new byte[0];
+            path = "user.png#image/png";
+        }
+
+        if (truedate)
+        {
+            User user = start.CreateUser(new _EPAM_UsersNote.Entites.User(userName, date));
+            start.AddPictureForUser(user, path, imageContent);
+            start.WriteUsers();
+        }
+
+
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}

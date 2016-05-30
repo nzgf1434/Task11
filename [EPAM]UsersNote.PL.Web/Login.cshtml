@@ -1,0 +1,64 @@
+﻿@using _EPAM_UsersNote.BLL_Logic
+@using _EPAM_UsersNote.Entites
+@using _EPAM_UsersNote.Interfaces.BLL
+@using _EPAM_UsersNote.Logger
+@using _EPAM_UsersNote.PL.Web
+
+@{
+    if (IsPost)
+    {
+        string login = Request["login"];
+        string pass = Request["password"];
+        if (!string.IsNullOrWhiteSpace(login) && !string.IsNullOrWhiteSpace(pass))
+        {
+            FormsAuthentication.SetAuthCookie(login, createPersistentCookie: false);
+            IUsersNoteAuthuserBLL authuser = new UsersNoteAuthuserLogic();
+            if (!authuser.GetAllAuthUsers().ContainsKey(login))
+            {
+                authuser.AddAuthUser(new AuthUser(login));
+                authuser.WriteAuthUsers();
+            }
+
+            var returnUrl = Request["ReturnUrl"];
+            if (string.IsNullOrWhiteSpace(returnUrl))
+            {
+                returnUrl = "~";
+            }
+            Response.Redirect(returnUrl);
+            return;
+        }
+    }
+}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/login.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="login login-layout">
+        <form action="~/Login" method="post">
+            <fieldset>
+                <legend>Форма регистрации</legend>
+                <div class="form-group">
+                    <input type="text" value="" id="login" name="login" placeholder="login"/>
+                </div>
+                <div class="form-group">
+                    <input type="password" value="" id="password" name="password" placeholder="password"/>
+                </div>
+                <input type="hidden" name="ReturnUrl" value="@Request["ReturnUrl"]"/>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit" value="">Регистрация</button>
+                </div>
+            </fieldset>
+        </form>
+        <a class="btn btn-primary" href="~/Index">Отказаться</a>
+    </div>
+
+<script src="~/Scripts/jquery-1.9.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

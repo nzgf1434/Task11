@@ -1,0 +1,28 @@
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.pdb
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.csprojResolveAssemblyReference.cache
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.dll
+G:\EPAM\[EPAM]UsersNote\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.pdb
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.dll
+G:\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.pdb
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.csprojResolveAssemblyReference.cache
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.dll
+G:\Task10\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.csprojResolveAssemblyReference.cache
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\[EPAM]UsersNote перед в классе\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Logger\bin\Debug\[EPAM]UsersNote.Logger.pdb
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.dll
+D:\Программирование\EPAM\EPAM\Task11\[EPAM]UsersNote новый\[EPAM]UsersNote.Logger\obj\Debug\[EPAM]UsersNote.Logger.pdb

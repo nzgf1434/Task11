@@ -1,0 +1,81 @@
+﻿
+@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using System.Web.Razor.Generator
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+@using _EPAM_UsersNote.PL.Web
+
+@if (IsPost)
+{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+    IUsersNoteAuthuserBLL authuser = new UsersNoteAuthuserLogic();
+
+    string name = Request["key"];
+    string role = Request["role"];
+    if (role == "admin")
+    {
+        authuser.SetUserAsAdmin(name);
+    }
+    else
+    {
+        authuser.SetUserAsUser(name);
+    }
+    
+    authuser.WriteAuthUsers();
+}
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
+{
+
+    //Admin users = new Admin();
+    IUsersNoteAuthuserBLL authuser = new UsersNoteAuthuserLogic();
+    int i = 1;
+    <text><!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+        <link href="~/Content/adminpage.css" rel="stylesheet" />
+    </head>
+    <body>
+    <div class="tbl tbl-layout">
+        <table class="table table-bordered">
+            <tr class="info">
+                <th>№</th>
+                <th>Имя пользователя</th>
+                <th>Изменить права</th>
+            </tr>
+            @foreach (var index in authuser.GetAllAuthUsers())
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@index.Key</td>
+                    <td>
+                        <form class="form form-inline" action="~/AdminPage" method="POST">
+                            <input type="hidden" value="@index.Key" name="key"/>
+                            <label for="admin">Назначить администратором</label>
+                            <input type="radio" value="admin" name="role" id="admin"/>
+                            <label for="user">Назначить пользователем</label>
+                            <input type="radio" value="user" name="role" id="user"/>
+                            <input class="btn btn-primary btn-sm" type="submit" value="Ок"/>
+                        </form>
+                    </td>
+                </tr>
+                i++;
+            }
+        </table>
+    </div>
+    <a href="~/Index.cshtml" class="btn btn-primary buttn-layout">На главную</a>
+        <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+    </body>
+</html></text>
+}

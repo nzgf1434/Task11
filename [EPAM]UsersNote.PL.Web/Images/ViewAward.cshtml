@@ -1,0 +1,43 @@
+﻿@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    //IUserNoteBLL start = null;
+    IUserNoteAwardBLL startAward = null;
+    try
+    {
+        //start = new UsersNoteLogic();
+        startAward= new UsersNoteAwardLogic();
+    }
+    catch (Exception e)
+    {
+        using (StreamWriter str = File.AppendText(logPath))
+        {
+            str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+        }
+    }
+
+    string userId = Request["awardId"];
+    Guid id;
+    if (string.IsNullOrWhiteSpace(userId) || !Guid.TryParse(userId, out id))
+    {
+        Response.SetStatus(HttpStatusCode.BadRequest);
+        return;
+    }
+
+    Award award = startAward.GetAward(id);
+    string[] arrUserpath = award.awardFotoPath.Split('#');
+    string contentType = arrUserpath[1];
+
+    byte[] image = startAward.GetAwardPicture(award);
+
+    Response.WriteBinary(image, contentType);
+    //Response.AddHeader("Content-Disposition", $"inline; filename=\"{arrUserpath[0]}\"");
+
+
+
+}

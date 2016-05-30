@@ -1,0 +1,92 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        try
+        {
+            start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        var inputVal = Request["Id"];
+        Guid id;
+        Guid.TryParse(inputVal, out id);
+        User user = start.GetUser(id);
+        var awards = start.GetAllUserAwards(user);
+        var name = Request["newname"];
+
+        if (!name.IsEmpty())
+        {
+            start.SetUserName(user, name);
+        }
+
+        var foto = Request.Files["foto"];
+        byte[] imageContent = null;
+        string path = null;
+        if (foto.ContentLength > 0)
+        {
+            imageContent = new byte[foto.ContentLength];
+            foto.InputStream.Read(imageContent, 0, imageContent.Length);
+            path = foto.FileName + "#" + foto.ContentType;
+            start.AddPictureForUser(user, path, imageContent);
+        }
+
+        string delFoto = Request["nofoto"];
+        if (delFoto == "true")
+        {
+            start.AddPictureForUser(user, "user.png#image/png", new byte[0]);
+        }
+
+        var birthdaystr = Request["newbirthday"];
+        if (!birthdaystr.IsEmpty())
+        {
+            DateTime birthday;
+            DateTime.TryParse(birthdaystr, out birthday);
+            start.SetUserBirthday(user, birthday);
+        }
+        string awardForDelete = Request["awards"];
+        if (!string.IsNullOrEmpty(awardForDelete))
+        {
+            string[] awardsForDel = awardForDelete.Split(',');
+            for (int i = 0; i < awardsForDel.Length; i++)
+            {
+                foreach (var item in awards)
+                {
+                    if (item == awardsForDel[i])
+                    {
+                        start.DeleteAwardInUser(user, startAward.GetAward(awardsForDel[i]));
+                    }
+                }
+            }
+        }
+        start.WriteUsers();
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}
+

@@ -1,0 +1,58 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;S
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+
+    if (IsPost)
+    {
+        IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        try
+        {
+            start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+
+        var foto = Request.Files["foto"];
+        byte[] imageContent = null;
+        string path = null;
+        if (foto.ContentLength > 0)
+        {
+            imageContent = new byte[foto.ContentLength];
+            foto.InputStream.Read(imageContent, 0, imageContent.Length);
+            path = foto.FileName + "#" + foto.ContentType;
+        }
+        else
+        {
+            imageContent = new byte[0];
+            path = "award.jpg#image/jpg";
+        }
+        var awardname = Request["awardtext"];
+        Award award = startAward.CreateAward(new Award(awardname));
+        startAward.AddPictureForAward(award, path, imageContent);
+        startAward.WriteAwards();
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}

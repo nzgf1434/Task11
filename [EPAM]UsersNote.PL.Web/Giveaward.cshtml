@@ -1,0 +1,54 @@
+﻿@using System;
+@using System.Collections.Generic;
+@using System.ComponentModel;
+@using System.IO;
+@using System.Linq;
+@using System.Text;
+@using System.Threading.Tasks;
+@using System.Configuration;
+@using _EPAM_UsersNote.BLL_Logic;
+@using _EPAM_UsersNote.Entites;
+@using _EPAM_UsersNote.Interfaces.BLL;S
+
+@{
+    string logPath = ConfigurationManager.AppSettings["LogPath"];
+    User user;
+    if (IsPost)
+    {
+        IUserNoteBLL start = null;
+        IUserNoteAwardBLL startAward = null;
+        try
+        {
+            start = new UsersNoteLogic();
+            startAward = new UsersNoteAwardLogic();
+        }
+        catch (Exception e)
+        {
+            using (StreamWriter str = File.AppendText(logPath))
+            {
+                str.WriteLine("{0}-{1}-{2}", e.Message, e.Source, e.TargetSite.Name);
+            }
+        }
+        var inputVal = Request["getawrd"];
+        string[] valueArr = inputVal.Split('!');
+        Guid id;
+        Guid.TryParse(valueArr[0], out id);
+        user = start.GetUser(id);
+        for (int i = 1; i < valueArr.Length-1; i++)
+        {
+            if (startAward.GetAward(valueArr[i]) != null)
+            {
+                start.ToAwardUser(user, startAward.GetAward(valueArr[i]));
+            }
+
+        }
+        start.WriteUsers();
+        Response.Redirect("~/Index");
+    }
+    else
+    {
+        Response.Redirect("~/Index");
+        return;
+    }
+}
+
